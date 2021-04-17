@@ -319,7 +319,6 @@ h6 { font-size: 16px; }
 	clear: both;
 	background-color: transparent;
 	padding: 20px 0px;
-	border-bottom: 1px solid rgba(0,0,0,.2);
 }
 
 /* 모바일 내가 수정한 거 */
@@ -327,6 +326,7 @@ h6 { font-size: 16px; }
 .tokyo_tm_mobile_menu .logo .dark{display: none;}
 .tokyo_tm_mobile_menu.animate .logo .dark{display: block;}
 .tokyo_tm_mobile_menu.animate .logo .light{display: none;}
+.tokyo_tm_mobile_menu.animate .topbar_inner{border-bottom: 1px solid rgba(0,0,0,.2);}
 .my_trigger.animate .hamburger .hamburger-inner::before,
 .my_trigger.animate .hamburger .hamburger-inner::after,
 .my_trigger.animate .hamburger .hamburger-inner{
